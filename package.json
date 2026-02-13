@@ -6,7 +6,7 @@
   "homepage": "https://pacotem.github.io/AgendaTecnica2026",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
